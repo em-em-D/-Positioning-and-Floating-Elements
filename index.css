@@ -2,93 +2,60 @@ body{
 background-color: white;
 background-position: center;
 }
-.ita{
-  font-style:  Georgia;
-}
+
 .sub{
-  width: 100px;
-  background-color:skyblue;
+height: auto;
+  background-color:rgb(88,139,174);
   font-size: 12px;
   font-weight: bold;
-  font-family: cursive;
-  top: 0px;
+  font-family: serif;
+  margin-top:0px;
   color: white;
 
 
 }
 .login{
+
   color: white;
-  width: 100px;
-  background-color: skyblue;
+  background-color: rgb(88,139,174);
   font-size: 12px;
   font-weight: bold;
-  font-family: cursive;
+  font-family: serif;
   top:0px;
 
-
+}
+.try{
+  margin-top: 0;
+border-top: 0px;
+  float:right;
 }
 
-#nav-bar{
-
-background-color:grey ;
-position: fixed;
-top: 0;
-height: 55px;
-width: 100%;
-display: inline;
-}
-
-.icon{
-  float: left;
-}
-
-
-#dropdown {
-  position: relative;
-  display: inline-block;
-}
-
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #f9f9f9;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
-}
-.dropdown-content a {
-  color: black;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
-}
-
-
-
-
-
-article {
-  padding-left: 100px;
-  padding-right:100px;
-  float: center;
-  padding: 20px;
-  width: 70%;
+.firstButton{
   background-color: white;
-  height: 300px;
+
+}
+.secondButton{
+  background-color: white;
+
+}
+.cent{
+  margin: 0 auto;
+  padding-left: 500px;
+}
+.fnt{
+  font-family: monospace;
+  font-size: 20px;
+  font-weight: bolder;
+}
+#nav-bar{
+background-color:white ;
+position: fixed;
+height: 10px;
+width: 100%;
+display:flex ;
 }
 
-/* Clear floats after the columns */
-section:after {
-  padding-top: 70px;
-  content: "";
-  display: table;
-  clear: both;
-  padding-left: 100px;
-  padding-right:100px;
-}
-
-/* Style the footer */
-footer {
+.footer {
   background-color: #777;
   padding: 10px;
   text-align: center;
