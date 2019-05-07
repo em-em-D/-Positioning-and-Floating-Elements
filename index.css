@@ -1,3 +1,87 @@
+#nav-bar{
+display:flex;
+flex-direction: row;
+justify-content: space-between;
+align-items:center;
+background-color: white;
+position: fixed;
+top: 0;
+padding-top: 20px;
+width: 100%;
+}
+
+.img{
+margin-bottom: -100px;
+	
+}
+.firstButton, .secondButton {
+	text-align: center;
+	background-color: white;
+	color: black;
+	margin: 0 5px 0 5px;
+	border: none;
+	
+}
+.buttons{
+	padding-left: 400px;
+}
+.buttons1{
+	padding-right: 500px;
+}
+.space{
+	padding-right: 500px;
+	font-weight: bold;
+	font-size: 18px;
+}
+
+.title{
+	padding-right: 400px;
+}
+.sub, .login{
+  margin: 0 2px 0 2px;
+  background-color:rgb(88,139,174);
+  font-size: 15px;
+  font-weight: bold;
+  font-family: "Times New Roman", Times, serif;
+  color: white;
+  padding: 15px 10px 5px 10px;
+  border-radius: 6px;
+  border: none;
+}
+.firstButton:hover, .secondButton:hover, .title:hover, .sub:hover, .login:hover{
+	cursor: pointer;
+}
+.space:hover{
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+footer{
+	display: flex;
+	flex-direction: row;
+	//justify-content: space-between;
+	align-items:center;
+	background-color: white;
+    justify-content: center;
+    color: black;
+    
+    
+}
+.p1{
+	padding-left: 100px;
+}
+.p2{
+	padding-left: 700px;
+}
+.p3{
+	padding-left: 50px;
+}
+.p3:hover{
+	cursor: pointer;
+}
+
+
+/*============================================================================================================
 body{
 background-color: white;
 background-position: center;
@@ -60,4 +144,4 @@ display:flex ;
   padding: 10px;
   text-align: center;
   color: white;
-}
+}*/
